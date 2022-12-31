@@ -1,0 +1,30 @@
+\addvspace {10.0pt}
+\addvspace {10.0pt}
+\contentsline {table}{\numberline {2.1}{\ignorespaces 主机属性和User-Agent对应关系\relax }}{10}{table.caption.16}%
+\contentsline {table}{\numberline {2.2}{\ignorespaces 常见操作系统TCP/IP协议栈指纹\relax }}{11}{table.caption.18}%
+\contentsline {table}{\numberline {2.3}{\ignorespaces 被动识别方法比较\relax }}{14}{table.caption.19}%
+\addvspace {10.0pt}
+\contentsline {table}{\numberline {3.1}{\ignorespaces 协议字段特征\relax }}{18}{table.caption.21}%
+\contentsline {table}{\numberline {3.2}{\ignorespaces 逻辑回归模型参数选择\relax }}{22}{table.caption.25}%
+\contentsline {table}{\numberline {3.3}{\ignorespaces 最近邻居模型参数选择\relax }}{23}{table.caption.26}%
+\contentsline {table}{\numberline {3.4}{\ignorespaces 随机森林模型参数选择\relax }}{23}{table.caption.27}%
+\contentsline {table}{\numberline {3.5}{\ignorespaces XGBoost模型参数选择\relax }}{24}{table.caption.28}%
+\contentsline {table}{\numberline {3.6}{\ignorespaces LightGBM模型参数选择\relax }}{25}{table.caption.29}%
+\contentsline {table}{\numberline {3.7}{\ignorespaces 操作系统类型识别结果\relax }}{31}{table.caption.37}%
+\contentsline {table}{\numberline {3.8}{\ignorespaces 操作系统版本识别结果\relax }}{32}{table.caption.38}%
+\contentsline {table}{\numberline {3.9}{\ignorespaces 浏览器类型识别结果\relax }}{33}{table.caption.40}%
+\addvspace {10.0pt}
+\contentsline {table}{\numberline {4.1}{\ignorespaces DNN模型结构参数表\relax }}{38}{table.caption.44}%
+\contentsline {table}{\numberline {4.2}{\ignorespaces 一维CNN模型结构参数表\relax }}{39}{table.caption.46}%
+\contentsline {table}{\numberline {4.3}{\ignorespaces 二维CNN模型结构参数表\relax }}{40}{table.caption.47}%
+\contentsline {table}{\numberline {4.4}{\ignorespaces LSTM模型结构参数表\relax }}{41}{table.caption.49}%
+\contentsline {table}{\numberline {4.5}{\ignorespaces 操作系统类型识别结果\relax }}{43}{table.caption.52}%
+\contentsline {table}{\numberline {4.6}{\ignorespaces 操作系统版本识别结果\relax }}{44}{table.caption.53}%
+\contentsline {table}{\numberline {4.7}{\ignorespaces 浏览器类型识别结果\relax }}{44}{table.caption.54}%
+\addvspace {10.0pt}
+\contentsline {table}{\numberline {5.1}{\ignorespaces 实验环境\relax }}{55}{table.caption.61}%
+\contentsline {table}{\numberline {5.2}{\ignorespaces 系统运行性能\relax }}{55}{table.caption.62}%
+\contentsline {table}{\numberline {5.3}{\ignorespaces 分类器识别性能\relax }}{56}{table.caption.63}%
+\addvspace {10.0pt}
+\addvspace {10.0pt}
+\addvspace {10.0pt}

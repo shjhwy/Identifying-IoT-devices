@@ -1,0 +1,58 @@
+%---------------------------------------------------------------------------%
+%->> Frontmatter
+%---------------------------------------------------------------------------%
+%-
+%-> 生成封面
+%-
+\maketitle% 生成中文封面
+\MAKETITLE% 生成英文封面
+%-
+%-> 作者声明
+%-
+\makedeclaration% 生成声明页
+%-
+%-> 中文摘要
+%-
+\intobmk\chapter*{摘\quad 要}% 显示在书签但不显示在目录
+\setcounter{page}{1}% 开始页码
+\pagenumbering{Roman}% 页码符号
+
+随着互联网规模的快速增长，网络安全问题得到越来越多的重视。无论是信息时代中的国家安全，电子商务应用中的财产安全，还是即时通信应用中的隐私安全，都需要网络安全技术的保障。而在网络攻防领域中，对主机信息的采集既是网络攻击的首要任务，又是入侵防御的关键所在。一方面，攻击者需要基于目标主机信息确定下一步入侵手段，另一方面，网络管理员可以利用本地网络中的主机信息优化防御策略，及时修补漏洞。
+
+与此同时，加密协议和伪装技术的普及，虽然从多个方面保护了企业和个人的数据安全，但也给主机属性识别技术带来了新的挑战。因此，本文针对加密网络中的被动主机属性发现技术进行深入研究，从流量数据中提取人工特征和原始载荷特征，结合LightGBM模型、神经网络模型、Stacking集成技术等算法构建分类器，并设计和开发一套原型系统，用于识别真实网络中海量主机的操作系统类型、版本以及浏览器类型等属性信息。
+
+本文的主要贡献包括：
+\begin{enumerate}
+\item
+开放环境中的细粒度主机属性发现。本文以双向流为单位，从TLS会话中提取13维协议首部字段特征和3类流统计特征，协议首部包括IP协议首部、TCP协议首部以及TLS协议首部等，流统计特征包括包长序列统计特征、时间序列统计特征以及速率统计特征等。然后结合以LightGBM模型为代表的机器学习算法，实现了对开放环境中细粒度主机属性的高精度识别。
+\item
+基于加密流原始载荷的主机属性发现。由于人工提取特征方法的有效性过于依赖专家知识，本文提出了基于表示学习和原始字节特征的主机属性发现技术。通过提取TLS会话中TCP SYN包和TLS Client Hello包的原始字节信息，并结合以卷积神经网络模型和长短期记忆网络模型为代表的深度学习算法，可以在不需要先验知识的前提下，进一步提高开放环境中主机属性的识别精度。
+\item
+主机属性识别系统的设计与实现。本文利用Stacking技术，将基于人工特征的机器学习模型和基于原始字节特征的神经网络模型进行融合，开发了一套用于海量主机属性发现的原型系统。其中，流量采集模块用于在高速网络中识别并采集目标流量。特征提取模块用于从原始TLS流量中提取所需的人工特征和原始载荷特征。属性识别模块基于Stacking技术，综合分析各学习模型的检测结果，得到最终的识别信息。分类器更新模块基于对标注数据集的再学习，可以对属性识别模块中的分类器进行更新和优化。数据存储与可视化模块用于识别结果的存储和可视化展示。
+\end{enumerate}
+
+\keywords{加密流量，属性识别，机器学习}% 中文关键词
+%-
+%-> 英文摘要
+%-
+\intobmk\chapter*{Abstract}% 显示在书签但不显示在目录
+
+With the rapid growth of the Internet, more and more attention has been paid to network security issues. Whether it is national security in the information age, property security in e-commerce applications, or privacy security in instant messaging applications, network security technology is required. In the field of network attack and defense, the collection of host information is both the primary task of network attacks and the key to intrusion prevention.On the one hand, the attacker needs to determine the next intrusion method based on the target host information. On the other hand, the network administrator can use the host information in the local network to optimize the defense strategy and patch the vulnerabilities in time.
+
+At the same time, the popularity of encryption protocols and camouflage technology has protected the data security of enterprises and individuals from multiple aspects, but it has also brought new challenges to the identification of host attributes. Therefore, this thesis conducts in-depth research on passive host attribute discovery technology in encrypted networks, extracts artificial features and original payload features from traffic data, combines LightGBM model, neural network model, stacking ensemble technology and other algorithms to build a classifier, and designs a set of The prototype system is used to identify attribute information such as the operating system type, version, and browser type of the host in a large-scale network.
+
+The main contributions of this thesis include:
+\begin{enumerate}
+\item
+
+Fine-grained host attribute discovery in an open environment. This thesis uses two-way flow as the unit to extract the 13-dimensional protocol header field features and 3 types of flow statistical features from the TLS session. The protocol header includes IP protocol header, TCP protocol header and TLS protocol header. Flow statistical features include packet length sequence statistical features, time sequence statistical features and rate statistical features. Then combined with the machine learning algorithm represented by the LightGBM model, it realizes high-precision identification of fine-grained host attributes in an open environment.
+\item
+
+Discovery of host attributes based on the original payload of the encrypted stream. Because the effectiveness of the artificial feature extraction method depends too much on expert knowledge, this thesis proposes a host attribute discovery technique based on representation learning and original byte data. By extracting the original byte information of the TCP SYN packet and TLS Client Hello packet in the TLS session, and combining the deep learning algorithm represented by the convolutional neural network model and the long short-term memory network model, it can further improve the identification accuracy of host attributes in an open environment without requiring prior knowledge.
+
+\item
+Design and implementation of host attribute identification system. This thesis uses stacking technology to integrate machine learning model based on artificial features and neural network model based on original byte features, and develops a prototype system for mass host attribute discovery. Among them, the traffic collection module is used to identify and collect target traffic in a high-speed network. The feature extraction module is used to extract the required artificial features and original load features from the original TLS traffic. The attribute identification module is based on the stacking technology and integrates the detection results of each learning model to obtain the final identification information. The classifier update module can update and optimize the classifier in the attribute identification module by re-learning the labeled data set. The data storage and visualization module is used to store and visualize the identification results.
+\end{enumerate}
+
+\KEYWORDS{Encrypted Traffic, Attribute Identification, Machine Learning}% 英文关键词
+%---------------------------------------------------------------------------%

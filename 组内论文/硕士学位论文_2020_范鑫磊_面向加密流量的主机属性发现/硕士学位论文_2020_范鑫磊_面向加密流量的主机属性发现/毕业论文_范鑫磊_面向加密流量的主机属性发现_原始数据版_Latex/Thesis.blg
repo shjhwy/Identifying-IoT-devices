@@ -1,0 +1,53 @@
+This is BibTeX, Version 0.99d (TeX Live 2019/W32TeX)
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: Thesis.aux
+The style file: Biblio/gbt7714-plain.bst
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
+Database file #1: Biblio/ref.bib
+Warning--empty key in xintong2019zhong
+Warning--empty key in guo2018zhong
+Warning--empty key in liuying2007ji
+Warning--empty key in zhoutiezheng2011ji
+You've used 33 entries,
+            4429 wiz_defined-function locations,
+            1099 strings with 13145 characters,
+and the built_in function-call counts, 181437 in all, are:
+= -- 2744
+> -- 20815
+< -- 27385
++ -- 7705
+- -- 357
+* -- 1477
+:= -- 25041
+add.period$ -- 99
+call.type$ -- 33
+change.case$ -- 267
+chr.to.int$ -- 6900
+cite$ -- 70
+duplicate$ -- 811
+empty$ -- 2057
+format.name$ -- 627
+if$ -- 46995
+int.to.chr$ -- 1
+int.to.str$ -- 1
+missing$ -- 0
+newline$ -- 190
+num.names$ -- 160
+pop$ -- 9971
+preamble$ -- 1
+purify$ -- 168
+quote$ -- 0
+skip$ -- 18010
+stack$ -- 0
+substring$ -- 7731
+swap$ -- 61
+text.length$ -- 309
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 509
+warning$ -- 4
+while$ -- 451
+width$ -- 0
+write$ -- 487
+(There were 4 warnings)

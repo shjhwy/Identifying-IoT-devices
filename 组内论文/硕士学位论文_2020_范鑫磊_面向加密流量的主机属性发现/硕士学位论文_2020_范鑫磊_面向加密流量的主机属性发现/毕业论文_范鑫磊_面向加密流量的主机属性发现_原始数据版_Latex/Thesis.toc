@@ -1,0 +1,62 @@
+\contentsline {chapter}{\numberline {第1章\hspace {.3em}}引言}{1}{chapter.1}%
+\contentsline {section}{\numberline {1.1}研究背景}{1}{section.1.1}%
+\contentsline {section}{\numberline {1.2}研究目的和意义}{2}{section.1.2}%
+\contentsline {section}{\numberline {1.3}本文的研究内容与主要贡献}{4}{section.1.3}%
+\contentsline {section}{\numberline {1.4}论文组织结构}{5}{section.1.4}%
+\contentsline {chapter}{\numberline {第2章\hspace {.3em}}国内外研究现状}{7}{chapter.2}%
+\contentsline {section}{\numberline {2.1}主动识别方法}{7}{section.2.1}%
+\contentsline {section}{\numberline {2.2}被动识别方法}{9}{section.2.2}%
+\contentsline {subsection}{\numberline {2.2.1}基于明文协议的方法}{9}{subsection.2.2.1}%
+\contentsline {subsection}{\numberline {2.2.2}基于TCP/IP协议栈指纹的方法}{10}{subsection.2.2.2}%
+\contentsline {subsection}{\numberline {2.2.3}基于流统计特征的方法}{13}{subsection.2.2.3}%
+\contentsline {section}{\numberline {2.3}本章小结}{14}{section.2.3}%
+\contentsline {chapter}{\numberline {第3章\hspace {.3em}}开放环境中的细粒度主机属性发现}{17}{chapter.3}%
+\contentsline {section}{\numberline {3.1}引言}{17}{section.3.1}%
+\contentsline {section}{\numberline {3.2}特征工程}{18}{section.3.2}%
+\contentsline {subsection}{\numberline {3.2.1}协议字段特征}{18}{subsection.3.2.1}%
+\contentsline {subsection}{\numberline {3.2.2}流统计特征}{21}{subsection.3.2.2}%
+\contentsline {section}{\numberline {3.3}机器学习模型构建}{22}{section.3.3}%
+\contentsline {subsection}{\numberline {3.3.1}逻辑回归模型}{22}{subsection.3.3.1}%
+\contentsline {subsection}{\numberline {3.3.2}最近邻居模型}{23}{subsection.3.3.2}%
+\contentsline {subsection}{\numberline {3.3.3}随机森林模型}{23}{subsection.3.3.3}%
+\contentsline {subsection}{\numberline {3.3.4}XGBoost模型}{24}{subsection.3.3.4}%
+\contentsline {subsection}{\numberline {3.3.5}LightGBM模型}{24}{subsection.3.3.5}%
+\contentsline {section}{\numberline {3.4}数据集构建}{25}{section.3.4}%
+\contentsline {subsection}{\numberline {3.4.1}属性标注}{25}{subsection.3.4.1}%
+\contentsline {subsection}{\numberline {3.4.2}数据集中的主机属性分布}{26}{subsection.3.4.2}%
+\contentsline {section}{\numberline {3.5}实验设计与结果分析}{27}{section.3.5}%
+\contentsline {subsection}{\numberline {3.5.1}模型对比}{27}{subsection.3.5.1}%
+\contentsline {subsection}{\numberline {3.5.2}泛化性能评估}{30}{subsection.3.5.2}%
+\contentsline {subsection}{\numberline {3.5.3}主机属性识别结果}{31}{subsection.3.5.3}%
+\contentsline {section}{\numberline {3.6}本章小结}{33}{section.3.6}%
+\contentsline {chapter}{\numberline {第4章\hspace {.3em}}基于加密流原始载荷的主机属性发现}{35}{chapter.4}%
+\contentsline {section}{\numberline {4.1}引言}{35}{section.4.1}%
+\contentsline {section}{\numberline {4.2}深度模型适应性分析}{36}{section.4.2}%
+\contentsline {subsection}{\numberline {4.2.1}原始流量可视化分析}{36}{subsection.4.2.1}%
+\contentsline {subsection}{\numberline {4.2.2}基于深度前馈神经网络的原始载荷特征挖掘模型}{37}{subsection.4.2.2}%
+\contentsline {subsection}{\numberline {4.2.3}基于卷积神经网络的原始载荷特征挖掘模型}{38}{subsection.4.2.3}%
+\contentsline {subsection}{\numberline {4.2.4}基于长短期记忆网络的原始载荷特征挖掘模型}{40}{subsection.4.2.4}%
+\contentsline {subsection}{\numberline {4.2.5}模型效果对比}{42}{subsection.4.2.5}%
+\contentsline {section}{\numberline {4.3}基于加密流原始载荷的主机属性发现结果}{43}{section.4.3}%
+\contentsline {section}{\numberline {4.4}本章小结}{45}{section.4.4}%
+\contentsline {chapter}{\numberline {第5章\hspace {.3em}}主机属性识别系统的设计与实现}{47}{chapter.5}%
+\contentsline {section}{\numberline {5.1}设计原则与目标}{47}{section.5.1}%
+\contentsline {section}{\numberline {5.2}原型系统的组织架构}{48}{section.5.2}%
+\contentsline {section}{\numberline {5.3}流量采集模块}{49}{section.5.3}%
+\contentsline {section}{\numberline {5.4}特征提取模块}{50}{section.5.4}%
+\contentsline {section}{\numberline {5.5}属性识别模块}{51}{section.5.5}%
+\contentsline {section}{\numberline {5.6}分类器更新模块}{53}{section.5.6}%
+\contentsline {section}{\numberline {5.7}数据存储与可视化模块}{54}{section.5.7}%
+\contentsline {section}{\numberline {5.8}系统测试}{54}{section.5.8}%
+\contentsline {subsection}{\numberline {5.8.1}测试环境}{54}{subsection.5.8.1}%
+\contentsline {subsection}{\numberline {5.8.2}系统运行性能测试}{55}{subsection.5.8.2}%
+\contentsline {subsection}{\numberline {5.8.3}分类器识别性能测试}{56}{subsection.5.8.3}%
+\contentsline {subsection}{\numberline {5.8.4}可视化功能测试}{57}{subsection.5.8.4}%
+\contentsline {subsection}{\numberline {5.8.5}识别结果分析}{57}{subsection.5.8.5}%
+\contentsline {section}{\numberline {5.9}本章小结}{59}{section.5.9}%
+\contentsline {chapter}{\numberline {第6章\hspace {.3em}}总结与展望}{61}{chapter.6}%
+\contentsline {section}{\numberline {6.1}本文工作总结}{61}{section.6.1}%
+\contentsline {section}{\numberline {6.2}下一步的工作}{62}{section.6.2}%
+\contentsline {chapter}{参考文献}{63}{section*.68}%
+\contentsline {chapter}{致谢}{67}{appendix*.70}%
+\contentsline {chapter}{作者简历及攻读学位期间发表的学术论文与研究成果}{69}{appendix*.71}%

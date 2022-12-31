@@ -1,0 +1,43 @@
+\addvspace {10.0pt}
+\contentsline {figure}{\numberline {1.1}{\ignorespaces 2014-2019年全球网络安全产业规模及增速\relax }}{1}{figure.caption.11}%
+\contentsline {figure}{\numberline {1.2}{\ignorespaces 2014-2019年Google产品和服务中加密流量占比增长趋势\relax }}{2}{figure.caption.12}%
+\contentsline {figure}{\numberline {1.3}{\ignorespaces 2018年CNVD收录的漏洞类型分布\relax }}{3}{figure.caption.13}%
+\contentsline {figure}{\numberline {1.4}{\ignorespaces 本文的组织结构\relax }}{5}{figure.caption.14}%
+\addvspace {10.0pt}
+\contentsline {figure}{\numberline {2.1}{\ignorespaces Nmap扫描流程图\relax }}{7}{figure.caption.15}%
+\contentsline {figure}{\numberline {2.2}{\ignorespaces TCP建立连接过程\relax }}{11}{figure.caption.17}%
+\addvspace {10.0pt}
+\contentsline {figure}{\numberline {3.1}{\ignorespaces 开放环境中的细粒度主机属性发现技术\relax }}{17}{figure.caption.20}%
+\contentsline {figure}{\numberline {3.2}{\ignorespaces IP报文格式\relax }}{19}{figure.caption.22}%
+\contentsline {figure}{\numberline {3.3}{\ignorespaces TCP报文格式\relax }}{19}{figure.caption.23}%
+\contentsline {figure}{\numberline {3.4}{\ignorespaces TLS报文格式\relax }}{20}{figure.caption.24}%
+\contentsline {figure}{\numberline {3.5}{\ignorespaces HTTP协议请求报文中的User-Agent字段\relax }}{25}{figure.caption.30}%
+\contentsline {figure}{\numberline {3.6}{\ignorespaces 构建主机属性标签字典流程\relax }}{26}{figure.caption.31}%
+\contentsline {figure}{\numberline {3.7}{\ignorespaces 数据集中的主机属性分布(a)操作系统类型分布，(b)操作系统版本分布，(c)浏览器类型分布\relax }}{27}{figure.caption.32}%
+\contentsline {figure}{\numberline {3.8}{\ignorespaces 识别任务准确率、精度以及召回率对比(a)操作系统类型识别结果，(b)操作系统版本识别结果，(c)浏览器类型识别结果\relax }}{28}{figure.caption.33}%
+\contentsline {figure}{\numberline {3.9}{\ignorespaces 操作系统版本识别任务PR曲线\relax }}{29}{figure.caption.34}%
+\contentsline {figure}{\numberline {3.10}{\ignorespaces 操作系统版本识别任务吞吐量柱状图\relax }}{29}{figure.caption.35}%
+\contentsline {figure}{\numberline {3.11}{\ignorespaces 操作系统类型识别(a)准确率、精度和召回率柱状图，(b) 精度和召回率折线图\relax }}{30}{figure.caption.36}%
+\contentsline {figure}{\numberline {3.12}{\ignorespaces 操作系统版本识别任务混淆矩阵\relax }}{32}{figure.caption.39}%
+\addvspace {10.0pt}
+\contentsline {figure}{\numberline {4.1}{\ignorespaces 基于加密流原始载荷的主机属性发现\relax }}{35}{figure.caption.41}%
+\contentsline {figure}{\numberline {4.2}{\ignorespaces 原始流量灰度图(a)iOS系统，(b)Linux系统\relax }}{36}{figure.caption.42}%
+\contentsline {figure}{\numberline {4.3}{\ignorespaces 深度全连接网络的一般结构\relax }}{37}{figure.caption.43}%
+\contentsline {figure}{\numberline {4.4}{\ignorespaces 卷积神经网络的一般结构\relax }}{39}{figure.caption.45}%
+\contentsline {figure}{\numberline {4.5}{\ignorespaces LSTM网络的一般结构\relax }}{41}{figure.caption.48}%
+\contentsline {figure}{\numberline {4.6}{\ignorespaces 模型准确率、精度和召回率对比\relax }}{42}{figure.caption.50}%
+\contentsline {figure}{\numberline {4.7}{\ignorespaces 模型PR曲线对比\relax }}{42}{figure.caption.51}%
+\addvspace {10.0pt}
+\contentsline {figure}{\numberline {5.1}{\ignorespaces 系统的组织架构\relax }}{48}{figure.caption.55}%
+\contentsline {figure}{\numberline {5.2}{\ignorespaces 流量采集模块\relax }}{50}{figure.caption.56}%
+\contentsline {figure}{\numberline {5.3}{\ignorespaces 特征提取模块\relax }}{50}{figure.caption.57}%
+\contentsline {figure}{\numberline {5.4}{\ignorespaces Stacking算法原理\relax }}{52}{figure.caption.58}%
+\contentsline {figure}{\numberline {5.5}{\ignorespaces 分类器更新模块\relax }}{53}{figure.caption.59}%
+\contentsline {figure}{\numberline {5.6}{\ignorespaces 数据存储与可视化模块\relax }}{54}{figure.caption.60}%
+\contentsline {figure}{\numberline {5.7}{\ignorespaces 可视化页面\relax }}{57}{figure.caption.64}%
+\contentsline {figure}{\numberline {5.8}{\ignorespaces 识别结果中的操作系统类型分布\relax }}{58}{figure.caption.65}%
+\contentsline {figure}{\numberline {5.9}{\ignorespaces 识别结果中的浏览器类型分布\relax }}{58}{figure.caption.66}%
+\contentsline {figure}{\numberline {5.10}{\ignorespaces 操作系统版本分布\relax }}{59}{figure.caption.67}%
+\addvspace {10.0pt}
+\addvspace {10.0pt}
+\addvspace {10.0pt}

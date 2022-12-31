@@ -1,0 +1,22 @@
+\addvspace {10.0pt}
+\contentsline {figure}{\numberline {1.1}{\ignorespaces 2014-2019年全球网络安全产业规模及增速\relax }}{1}{figure.caption.16}%
+\contentsline {figure}{\numberline {1.2}{\ignorespaces 2018年CNVD收录的漏洞按影响对象类型分类统计\relax }}{2}{figure.caption.17}%
+\addvspace {10.0pt}
+\contentsline {figure}{\numberline {2.1}{\ignorespaces 复杂网络中的细粒度主机属性发现\relax }}{6}{figure.caption.18}%
+\contentsline {figure}{\numberline {2.2}{\ignorespaces IP报文格式\relax }}{7}{figure.caption.19}%
+\contentsline {figure}{\numberline {2.3}{\ignorespaces TCP报文格式\relax }}{8}{figure.caption.20}%
+\contentsline {figure}{\numberline {2.4}{\ignorespaces TLS报文格式\relax }}{9}{figure.caption.21}%
+\contentsline {figure}{\numberline {2.5}{\ignorespaces HTTP协议请求报文中的User-Agent字\relax }}{14}{figure.caption.27}%
+\contentsline {figure}{\numberline {2.6}{\ignorespaces 数据集中操作系统分布(a)操作系统类型分布，(b) 操作系统版本分布\relax }}{14}{figure.caption.28}%
+\contentsline {figure}{\numberline {2.7}{\ignorespaces 数据集中浏览器类型分布\relax }}{15}{figure.caption.29}%
+\contentsline {figure}{\numberline {2.8}{\ignorespaces 识别任务准确率、精度以及召回率(a)操作系统类型，(b)操作系统版本，(c)浏览器类型\relax }}{16}{figure.caption.30}%
+\contentsline {figure}{\numberline {2.9}{\ignorespaces 操作系统版本识别任务PR曲线\relax }}{16}{figure.caption.31}%
+\contentsline {figure}{\numberline {2.10}{\ignorespaces 操作系统版本识别任务PR曲线\relax }}{17}{figure.caption.32}%
+\contentsline {figure}{\numberline {2.11}{\ignorespaces 操作系统类型识别(a)准确率、精度和召回率柱状图，(b 精度和召回率折线图\relax }}{18}{figure.caption.33}%
+\addvspace {10.0pt}
+\contentsline {figure}{\numberline {3.1}{\ignorespaces 基于加密流原始载荷的主机属性发现\relax }}{22}{figure.caption.37}%
+\contentsline {figure}{\numberline {3.2}{\ignorespaces 可视化分析(a)iOS原始流量灰度图(b)Linux原始流量灰度图\relax }}{23}{figure.caption.38}%
+\contentsline {figure}{\numberline {3.3}{\ignorespaces 卷积神经网络的一般结构\relax }}{24}{figure.caption.39}%
+\addvspace {10.0pt}
+\addvspace {10.0pt}
+\addvspace {10.0pt}
