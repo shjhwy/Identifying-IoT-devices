@@ -2,7 +2,7 @@ https://baijiahao.baidu.com/s?id=1646896790798085286&wfr=spider&for=pc
 
 #  摘要
 
-通过利用单个设备的数据包之间的时间关系，可以可靠地识别设备，基于序列学习技术（如LSTM）的流量分析框架，并利用数据包之间的时间关系进行设备识别,实现以高精度区分设备类型
+通过利用单个设备的**数据包之间的时间关系**，可以可靠地识别设备，基于序列学习技术（如LSTM）的流量分析框架，并利用数据包之间的时间关系进行设备识别,实现以高精度区分设备类型
 
 ```
 we found such temporal relations can be modeled by sequence model LSTM-RNN when grouping consecutive packets into a traffic window.
